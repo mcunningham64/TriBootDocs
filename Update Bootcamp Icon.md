@@ -13,6 +13,7 @@
 - Reboot your Mac and check if the icon has been updated in the Startup Manager and on the desktop. 
 
 ## Be Aware...
+
 - Note that Finder might overwrite custom icons, and some users have reported issues with certain macOS versions or hardware configurations. 
 - If you are using an external drive, the process might be different, and the .VolumeIcon.icns file might disappear after a short time due to Finder's behavior. 
 
