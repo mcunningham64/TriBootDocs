@@ -41,10 +41,11 @@ This will change the Mac/Macintosh HD boot icon to the default internal drive ic
 ```
 sudo diskutil mount disk0s1
 ```
+```
 sudo cp /System/Library/Extensions/IOStorageFamily.kext/Contents/Resources/Internal.icns /Volumes/EFI/.VolumeIcon.icns
 ```
 
-*Don't forget to **enable SIP protection** again, if you wish, by booting back into recovery mode and using:*
+* Don't forget to **enable SIP protection** again, if you wish, by booting back into recovery mode and using: *
 ```
 csrutil enable
 ```
