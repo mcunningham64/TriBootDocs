@@ -10,7 +10,10 @@ diskutil list
 ```
 - use this to find the Windows EFI partition
 ```
-sudo diskutil mount disk0s1 - whereas "disk0s1" is your EFI partition
+sudo diskutil mount disk0s1
+```
+ - whereas "disk0s1" is your EFI partition
+```
 sudo bless --folder /Volumes/EFI/EFI/Boot --label Windows` - whereas **"Windows"** is your label of choice
 ```
 ## Rename “Macintosh HD” in Startup Manager
