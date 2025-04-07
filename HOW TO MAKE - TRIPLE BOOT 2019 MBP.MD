@@ -17,7 +17,10 @@
      Reboot into "Recovery Mode" (hold Apple (Cmd)+R)
    - Under "Utility" menu
    - Open "Terminal"
-   - Type ```csrutil disable```
+   - Type 
+```
+csrutil disable
+```
 
 2. Use Bootcamp via MacOS to install Windows 10
 3. Set Windows partion size according which OS gets the most traffic (There are going to be 3) **Once Finished**
@@ -28,7 +31,7 @@
 ## Level 2 setup
 
 1. Install Bluetooth
-c
+```
 sudo pacman -S bluez bluez-utils
 ```
 2. Start Bluetooth
