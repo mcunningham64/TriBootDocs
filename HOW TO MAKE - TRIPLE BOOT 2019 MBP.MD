@@ -2,7 +2,7 @@
 
 ## *Difficulty Level: Medium-Hard*
 
-### ==Needed== *to complete*
+### ==v Neededv == *to complete*
 
 - 2019 MBP
 - Windows 10 Setup ISO
@@ -31,35 +31,35 @@
 ## Level 2 setup
 
 1. Install Bluetooth
-```
-sudo pacman -S bluez bluez-utils
-```
+     ```
+     sudo pacman -S bluez bluez-utils
+     ```
 2. Start Bluetooth
-```
-sudo systemctl start bluetooth
-```
+     ```
+     sudo systemctl start bluetooth
+     ```
 3. Enable Bluetooth on Boot
-```
-sudo systemctl enable bluetooth
-```
-```
-sudo pacman -S blueman
-```
+     ```
+     sudo systemctl enable bluetooth
+     ```
+     ```
+     sudo pacman -S blueman
+     ```
 - --OR
-```
-sudo pacman -S blueberry
-```
+     ```
+     sudo pacman -S blueberry
+     ```
 5. Troubleshooting (if FAIL)
-```
-sudo bluetoothctl
-power on
-agent on
-default-agent
-scan on
-pair <MAC Address>
-trust <MAC Address>
-connect <MAC Address> 
-```
+     ```
+     sudo bluetoothctl
+     power on
+     agent on
+     default-agent
+     scan on
+     pair <MAC Address>
+     trust <MAC Address>
+     connect <MAC Address> 
+     ```
 
 ## MacOS
 
