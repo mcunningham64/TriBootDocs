@@ -2,7 +2,7 @@
 
 ## *Difficulty Level: Medium-Hard*
 
-### ==v Neededv == *to complete*
+### ==Needed== *to complete*
 
 - 2019 MBP
 - Windows 10 Setup ISO
