@@ -34,17 +34,18 @@
 - `sudo systemctl enable bluetooth`
 4. Install Bluetooth GUI
 - `sudo pacman -S blueman`
-OR
+- --OR
 - `sudo pacman -S blueberry`
 5. Troubleshooting (if FAIL)
-{ sudo bluetoothctl
+ { sudo bluetoothctl
 power on
 agent on
 default-agent
 scan on
 pair <MAC Address>
 trust <MAC Address>
-connect <MAC Address> }
+connect <MAC Address> 
+}
 
 ## MacOS
 
