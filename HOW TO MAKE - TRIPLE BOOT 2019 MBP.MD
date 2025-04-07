@@ -26,10 +26,13 @@
 
 ## Level 2 setup
 
-### MacOS
+1. Enable Bluetooth
+     sudo pacman -S bluez bluez-utils
+
+
+## MacOS
 
 1. Using Disk Utility -- Create 3 New Partitions (4 if a standalone data disk desired) each will be reformatted during EndeavourOS Installation
 1. 500MB?? MSDOS FAT16 -- Format
 2. 16GB APFS -- whereas 16GB = MBP RAM
 3. 200GB APFS -- whereas 200GB = MBP Available disk space
-2.
