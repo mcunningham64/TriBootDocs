@@ -18,9 +18,9 @@
    - Under "Utility" menu
    - Open "Terminal"
    - Type 
-```
-csrutil disable
-```
+     ```
+     csrutil disable
+     ```
 
 2. Use Bootcamp via MacOS to install Windows 10
 3. Set Windows partion size according which OS gets the most traffic (There are going to be 3) **Once Finished**
