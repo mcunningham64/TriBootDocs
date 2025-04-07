@@ -26,9 +26,25 @@
 
 ## Level 2 setup
 
-1. Enable Bluetooth
-     sudo pacman -S bluez bluez-utils
-
+1. Install Bluetooth
+- `sudo pacman -S bluez bluez-utils`
+2. Start Bluetooth
+- `sudo systemctl start bluetooth`
+3. Enable Bluetooth on Boot
+- `sudo systemctl enable bluetooth`
+4. Install Bluetooth GUI
+- `sudo pacman -S blueman`
+OR
+- `sudo pacman -S blueberry`
+5. Troubleshooting (if FAIL)
+{ sudo bluetoothctl
+power on
+agent on
+default-agent
+scan on
+pair <MAC Address>
+trust <MAC Address>
+connect <MAC Address> }
 
 ## MacOS
 
