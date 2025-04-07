@@ -31,13 +31,20 @@
 sudo pacman -S bluez bluez-utils
 ```
 2. Start Bluetooth
-- `sudo systemctl start bluetooth`
+```
+sudo systemctl start bluetooth
+```
 3. Enable Bluetooth on Boot
-- `sudo systemctl enable bluetooth`
-4. Install Bluetooth GUI
-- `sudo pacman -S blueman`
+```
+sudo systemctl enable bluetooth
+```
+```
+sudo pacman -S blueman
+```
 - --OR
-- `sudo pacman -S blueberry`
+```
+sudo pacman -S blueberry
+```
 5. Troubleshooting (if FAIL)
 ```
 sudo bluetoothctl
