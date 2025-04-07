@@ -27,7 +27,7 @@
 ## Level 2 setup
 
 1. Install Bluetooth
-- ```
+```
 sudo pacman -S bluez bluez-utils
 ```
 2. Start Bluetooth
