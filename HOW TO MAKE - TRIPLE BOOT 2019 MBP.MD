@@ -44,8 +44,8 @@
      ```
      ```
      sudo pacman -S blueman
-     ```
-- --OR
+   ```
+-- OR
      ```
      sudo pacman -S blueberry
      ```
