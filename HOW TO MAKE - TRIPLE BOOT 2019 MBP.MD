@@ -27,7 +27,7 @@
 ## Level 2 setup
 
 1. Install Bluetooth
-- `sudo pacman -S bluez bluez-utils`
+- ```sudo pacman -S bluez bluez-utils```
 2. Start Bluetooth
 - `sudo systemctl start bluetooth`
 3. Enable Bluetooth on Boot
