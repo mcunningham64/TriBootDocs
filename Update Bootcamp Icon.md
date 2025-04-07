@@ -6,10 +6,14 @@
 
 - Ensure System Integrity Protection (SIP) is disabled by booting into Recovery Mode (hold Command + R during startup), opening Terminal, and running csrutil disable. 
 - Copy the desired .icns file to /System/Volumes/Preboot/.VolumeIcon.icns for the macOS volume or /Volumes/EFI/.VolumeIcon.icns for the Windows EFI partition. For example:
-'`sudo cp /path/to/your/icon.icns /System/Volumes/Preboot/.VolumeIcon.icns`'
-   or
-'`sudo cp /path/to/your/icon.icns /Volumes/EFI/.VolumeIcon.icns`'
-- Re-enable SIP by booting back into Recovery Mode and running csrutil enable in Terminal. 
+   ```
+   sudo cp /path/to/your/icon.icns /System/Volumes/Preboot/.VolumeIcon.icns
+   ```
+   **OR**
+   ```
+   sudo cp /path/to/your/icon.icns /Volumes/EFI/.VolumeIcon.icns
+   ```
+- **Re-enable SIP** by booting back into Recovery Mode and running csrutil enable in Terminal. 
 - Reboot your Mac and check if the icon has been updated in the Startup Manager and on the desktop. 
 
 ## Be Aware...
